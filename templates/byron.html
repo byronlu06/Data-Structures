@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% set project = "byron" %}
+
+{% block background %}
+{% endblock %}
+
+{% block body %}
+
+
+<h2 style="color: white;margin:0 10px" >Hi my name is Byron Lu and I am a sophomore in AP CSP.</h2>
+
+<table class="row-cols-1" >
+  <tr>
+    <a style="font-size: 30px;color: white;margin:0 20px" href="https://docs.google.com/document/d/1R43f8RuXc5HnxJAlKmvdIIxjIf3VF8rpTDBk7qxklEU/edit">Journal Link</a>
+  </tr>
+  <tr>
+    <a style="font-size: 30px;color: white;margin:0 20px" href="https://docs.google.com/document/d/1R43f8RuXc5HnxJAlKmvdIIxjIf3VF8rpTDBk7qxklEU/edit">TPT</a>
+  </tr>
+  <tr>
+    <a style="font-size: 30px;color: white;margin:0 20px" href="https://docs.google.com/document/d/1R43f8RuXc5HnxJAlKmvdIIxjIf3VF8rpTDBk7qxklEU/edit">Create Task</a>
+  </tr>
+  <tr>
+    <a style="font-size: 30px;color: white;margin:0 20px" href="https://github.com/NastyEthan/NastyAwakened/commits?author=byronlu06">Commits</a>
+  </tr>
+  <tr>
+    <a style="font-size: 30px;color: white;margin:0 20px" href="https://github.com/NastyEthan/NastyAwakened#readme">ReadMe</a>
+  </tr>
+</table>
+
+</body>
+
+<body>
+<p style="font-size: 30px;color: white;margin:0 10px" > Click below to generate interesting trivia, math, date, and year facts about numbers </p>
+
+<form method ="post" action="/byronIndex/">
+  <button style="margin:0 10px" type="submit" name="askNumbers" value="submit_n"> Generate </button>
+</form>
+
+<table>
+  <tr>
+    <a style="margin:0 10px" >Year {{ numbers['year'] }}:</a>
+  </tr>
+  <tr>
+    <a>{{ numbers['text'] }}</a>
+  </tr>
+
+</table>
+</body>
+
+<label class="tog">
+  <input type="checkbox" checked>
+  <span>Mask</span>
+</label>
+
+<style>
+  html,body {
+    background: url('/static/assets/websiteimages/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  label.tog > input {
+
+  }
+
+  label.tog > input + span {
+    text-indent: -9000px; /* Make text Accessible but not visible */
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background: center / contain no-repeat url("/static/assets/websiteimages/byronmaskoff.png");
+  }
+
+  label.tog > input:checked + span {
+    background-image: url("/static/assets/websiteimages/byronmaskon.png");
+  }
+</style>
+
+{% endblock %}
+
+</html>

@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://github.com/NastyEthan/NastyAwakened">&nbsp;&nbsp;{{basename}}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr-auto">
+            <li class="navbar-nav">
+                <a class="nav-link" href={{ url_for('home') }}>Home</a>
+            </li>
+
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About Page
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                    <a class="dropdown-item" href="/ethan/">Ethan</a>
+                    <a class="dropdown-item" href="/anirudh/">Anirudh</a>
+                    <a class="dropdown-item" href="/michael/">Michael</a>
+                    <a class="dropdown-item" href="/sahil/">Sahil</a>
+                    <a class="dropdown-item" href="/byron/">Byron</a>
+                </div>
+            </li>
+            </ul>
+        </div>
+        <div class="btn-group">
+            <div class="form-check form-switch">
+                <input type="checkbox" onclick="darkFunction()" class="form-check-input" id="darkSwitch">
+                <label style='color: dimgray;' class="custom-control-label" for="darkSwitch">Dark Mode</label>
+            </div>
+        </div>
+
+        {% block navbar_script %}
+        <!-- Navigation bar JavaScript support -->
+        <script src={{  url_for("static", filename="javascript/navbar.js", version='140') }}></script>
+        {% endblock %}
+</nav>
+
+</body>
