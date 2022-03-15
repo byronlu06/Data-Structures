@@ -1,18 +1,20 @@
-## Requirements
+# **Create Task**
 
-* An input and an output
-* At least one list
-* At least one procedure
-* At least one algorithm
+## Submission Requirements
 
-## Video
+## Project Idea
+A rock paper scissors game created with javascript, lists, and algorithms. Includes instructions for user and uses procedures.
 
-* Less than 1 minute
-* No collaboration
-* No voice, only text captions
-* Less than 30 MB in file size
-* .mp4, .wmv, .avi, or .mov format
+### Program Code
+- Submit one PDF file that contains all of your program code
+- Include comments or acknowledgments for any part of the submitted program code that has been written by someone other than you and/or your collaborative partner(s)
+- Use of at least one list (or another collection type) to represent a collection of data that is stored and used to manage program complexity and help fulfill the program’s purpose
+- At least one procedure that contributes to the program’s intended purpose
 
-## Written Response
+### Video
+- Submit one video file that demonstrates the running of your program as described below
+- Collaboration is not allowed during the development of your video
+- Your video must demonstrate your program running
 
-* Response to prompts 3a-3d
+### Written Response
+- Responses to 3a-3d
