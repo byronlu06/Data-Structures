@@ -2,10 +2,16 @@
 
 # **Create Task**
 
+<br>
+
 ## Project Idea
 A rock paper scissors game created with javascript, lists, and algorithms. Includes instructions for user and uses procedures.
 
+<br>
+
 ## Submission Requirements
+
+<br>
 
 ### Program Code
 - Submit one PDF file that contains all of your program code
