@@ -11,8 +11,6 @@ A rock paper scissors game created with javascript, lists, and algorithms. Inclu
 
 ## Submission Requirements
 
-<br>
-
 ### Program Code
 - Submit one PDF file that contains all of your program code
 - Include comments or acknowledgments for any part of the submitted program code that has been written by someone other than you and/or your collaborative partner(s)
