@@ -2,8 +2,9 @@
 
 # Home
 
-| Byron Lu | [@byronlu06](https://github.com/byronlu06) | [Issues](https://github.com/byronlu06/Data-Structures/issues/created_by/byronlu06) | [Commits](https://github.com/byronlu06/Data-Structures/commits?author=byronlu06) | [Team Github](https://github.com/PunarvasuS/PopcornCritics) |
+| Name | Github Profile | Issues | Commits | Team Github |
 | - | - | - | - | - |
+| Byron Lu | [@byronlu06](https://github.com/byronlu06) | [Issues](https://github.com/byronlu06/Data-Structures/issues/created_by/byronlu06) | [Commits](https://github.com/byronlu06/Data-Structures/commits?author=byronlu06) | [Team Github](https://github.com/PunarvasuS/PopcornCritics) |
 
 | Week | Grade | Requirements | Ticket |
 | - | - | - | - |
