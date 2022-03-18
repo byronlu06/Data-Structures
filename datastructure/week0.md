@@ -1,6 +1,6 @@
 {% include navigation.html  %}
 
-## [Week 0](https://replit.com/@ByronLu/TT0#main.py)
+## Week 0 [Replit Link](https://replit.com/@ByronLu/TT0#main.py)
 
 <br>
 
