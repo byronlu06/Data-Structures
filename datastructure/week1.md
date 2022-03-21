@@ -104,38 +104,28 @@ if __name__ == "__main__":
 InfoDb = []
 # List with dictionary records placed in a list
 InfoDb.append({
-    "FirstName": "John",
-    "LastName": "Mortensen",
-    "DOB": "October 21",
+    "FirstName": "Jasmine",
+    "LastName": "Lu",
+    "DOB": "October 17",
     "Residence": "San Diego",
-    "Email": "jmortensen@powayusd.com",
-    "Owns_Cars": ["2015 Fusion", "2011 Ranger", "2003 Excursion", "1997 F-350", "1969 Cadillac"]
+    "Email": "jasmine06258@gmail.com",
+    "Hobbies": ["Polo and Reading",]
 })
-InfoDb.append({
-    "FirstName": "Chase",
-    "LastName": "Ott",
-    "DOB": "Decemeber 22",
-    "Residence": "San Diego",
-    "Email": "chaseo08899@stu.powayusd.com",
-    "Owns_Cars": ["Toyota Sienna 2005",]
-})
-
 
 InfoDb.append({
-    "FirstName": "Sunny",
-    "LastName": "Naidu",
-    "DOB": "August 2",
+    "FirstName": "Byron",
+    "LastName": "Lu",
+    "DOB": "September 24",
     "Residence": "San Diego",
-    "Email": "snaidu@powayusd.com",
-    "Owns_Cars": ["A", "B", "C"]
+    "Email": "byronlu06@gmail.com",
+    "Hobbies": ["Soccer and Chess",]
 })
-
 
 # given an index this will print InfoDb content
 def print_data(n):
     print(InfoDb[n]["FirstName"], InfoDb[n]["LastName"])  # using comma puts space between values
-    print("\t", "Cars: ", end="")  # \t is a tab indent, end="" make sure no return occurs
-    print(", ".join(InfoDb[n]["Owns_Cars"]))  # join allows printing a string list with separator
+    print("\t", "Hobbies: ", end="")  # \t is a tab indent, end="" make sure no return occurs
+    print(", ".join(InfoDb[n]["Hobbies"]))  # join allows printing a string list with separator
     print()
 
 
@@ -174,6 +164,7 @@ def recursive_loop(n):
         print_data(n)
         recursive_loop(n + 1)
     return  # exit condition
+
 ```
 
 ### Factorial
