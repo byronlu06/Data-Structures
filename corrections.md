@@ -42,3 +42,9 @@ Q27: The option I chose is incorrect because unsolvable problems cannot be solve
 Q36: The option I chose is incorrect because the count is not an approximation of an analog measurement.
 
 Q40: The option I chose is incorrect because the work may be distributed to amateur or nonprofessional individuals, who are not likely to have the same accuracy as the professional researchers.
+
+Q41: The option I chose is incorrect because this information can be determined using the data collected, but not in the way described in this option. The average amount spent per day during the 7-day period is the sum of all the total transaction amounts divided by 7.
+
+Q42: The option I chose is incorrect because cloud storage sites allow users to share files easily, which could lead to increased concerns about copyrighted materials being illegally distributed online.
+
+Q44: The option I chose is incorrect because collaboration often allows teams to break a complex problem into smaller parts, decreasing the size and complexity of tasks required of each team member.
