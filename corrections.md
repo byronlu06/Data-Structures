@@ -48,3 +48,13 @@ Q41: The option I chose is incorrect because this information can be determined 
 Q42: The option I chose is incorrect because cloud storage sites allow users to share files easily, which could lead to increased concerns about copyrighted materials being illegally distributed online.
 
 Q44: The option I chose is incorrect because collaboration often allows teams to break a complex problem into smaller parts, decreasing the size and complexity of tasks required of each team member.
+
+## Final Quiz 3 Test Corrections
+
+#### Score: 47/50
+
+Q12: The option I chose is incorrect because Creative Commons are limited to works that are published with a Creative Commons license. Previously published works are subject to traditional copyright rules.
+
+Q18: The option I chose is incorrect because the procedure begins to traverse the list and immediately encounters the positive value 1. At this point, the procedure returns true as intended for this list.
+
+Q37: The option I chose is incorrect because the system uses GPS technology to find a lost pet, rather than the contributions of many individuals.
