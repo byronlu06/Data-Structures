@@ -62,7 +62,7 @@ Q37: The option I chose is incorrect because the system uses GPS technology to f
 
 ## Final Quiz 5 Test Corrections
 
-#### Score: 21/25
+#### Score: 46/50
 
 Q5: The option I chose is incorrect because a round-off error occurs when the number of bits provided give an approximate answer. This answer provided, 0, is not close to the correct answer of 8.
 
