@@ -58,3 +58,16 @@ Q12: The option I chose is incorrect because Creative Commons are limited to wor
 Q18: The option I chose is incorrect because the procedure begins to traverse the list and immediately encounters the positive value 1. At this point, the procedure returns true as intended for this list.
 
 Q37: The option I chose is incorrect because the system uses GPS technology to find a lost pet, rather than the contributions of many individuals.
+
+
+## Final Quiz 5 Test Corrections
+
+#### Score: 21/25
+
+Q5: The option I chose is incorrect because a round-off error occurs when the number of bits provided give an approximate answer. This answer provided, 0, is not close to the correct answer of 8.
+
+Q17: The option I chose is incorrect because Version I calls GetPrediction once for each element of idList, while version II calls GetPrediction twice for each element of idList (plus one more time at the end). Therefore, version II takes more than 1 minute longer than version I.
+
+Q18: The option I chose is incorrect because public key encryption uses a public key for encryption and a private key for decryption. Symmetric encryption is a method that uses a single key for both encryption and decryption.
+
+Q21: The option I chose is incorrect because for every bit, 2 times as many numbers can be represented so 64 bits compared to 32 bits will allow 2^32 more values to be represented by the bits.
